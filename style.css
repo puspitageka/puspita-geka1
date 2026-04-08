@@ -12,24 +12,23 @@ body {
     padding: 30px 20px;
 }
 
-.header h1 {
-    margin: 0;
-    letter-spacing: 2px;
+.header {
+    width: 90%;
+    margin: 20px auto 10px auto; /* 10px auto yang belakang itu buat jeda bawah */
+    height: 120px;
+    line-height: 120px;
+    background: #417aa8;
+    color: white;
 }
 
-/* Navigation */
 .menu {
-    background-color: #4a89dc;
-    padding: 10px 0;
+    background-color: #417aa8;
+    width: 90%;
+    margin: 10px auto; /* Memberi jarak 10px atas dan bawah menu */
+    height: 50px;
+    /* border-top-nya boleh dihapus kalau mau jedanya bersih warna pink */
 }
 
-.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 20px;
 }
 
 .menu ul li {
