@@ -1,34 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: pink; 
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-/* Header */
-.header {
-    background-color: #5d9cec; /* Biru sesuai gambar */
-    color: white;
-    padding: 30px 20px;
 }
 
 .header {
     width: 90%;
-    margin: 20px auto 10px auto; /* 10px auto yang belakang itu buat jeda bawah */
+    margin: 20px auto 10px auto;
     height: 120px;
     line-height: 120px;
     background: #417aa8;
     color: white;
 }
 
+.jarak {
+    padding: 0 30px;
+}
+
 .menu {
     background-color: #417aa8;
     width: 90%;
-    margin: 10px auto; /* Memberi jarak 10px atas dan bawah menu */
+    margin: 10px auto;
     height: 50px;
-    /* border-top-nya boleh dihapus kalau mau jedanya bersih warna pink */
 }
 
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #4b88bb;
+}
+
+.menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 }
 
 .menu ul li {
